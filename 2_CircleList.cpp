@@ -122,7 +122,7 @@ int main()
     list.remove(5);
     list.show();
     /*
-    6 4 3 2 1 0  
+    6 4 3 2 1 0   
     */
 
     return 0;
