@@ -108,13 +108,22 @@ int main()
     for (int i : arr) {
         list.push_front(i);
     }
-    list.show();
+    list.show(); 
+    /*
+    6 5 4 3 2 1 
+    */
 
     list.push_back(0);
     list.show();
+    /*
+    6 5 4 3 2 1 0  
+    */
 
     list.remove(5);
     list.show();
+    /*
+    6 4 3 2 1 0  
+    */
 
     return 0;
 }
