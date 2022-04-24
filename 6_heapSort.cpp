@@ -7,7 +7,7 @@ void sink(vector<int>& nums, int index, int val, int len) {
 	int p = index;
 	int c;
 
-	while ((c = (p << 1) + 1) < len) {
+	while ((c = (p << 1) + 1) <= len) {
 		if (c + 1 <= len && nums[c] < nums[c + 1]) {
 			c = c + 1;
 		}
