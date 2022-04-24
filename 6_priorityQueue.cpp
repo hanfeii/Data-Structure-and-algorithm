@@ -105,7 +105,7 @@ private:
 		int p = index;
 		int c;
 
-		while ((c = (p << 1) + 1) < size_){
+		while ((c = (p << 1) + 1) <= size_){
 			if (c + 1 <= size_ && comp(pQue[c + 1], pQue[c])) {
 				c = c + 1;
 			}
